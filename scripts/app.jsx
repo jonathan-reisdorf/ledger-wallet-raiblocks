@@ -168,8 +168,8 @@ let App = React.createClass( {
                     <Col>
                         Public Key
                         <p style={{ wordBreak: 'break-all' }}><code>{publicKeyInfo}</code></p>
-                        <p>Destination Address <input type='text' size='40' id='toAddress' placeholder='Destination Address' /></p>
-                        <p>Amount <input type='number' step='0.000001' min='1' id='amount' size='30' /></p>
+                        <p>Destination Address <input type="text" size="40" id="toAddress" placeholder="Destination Address" /></p>
+                        <p>Amount <input type="number" step="0.000001" min="1" id="amount" size="30" /></p>
                         <p>
                             <button onClick={( e ) => encodeTransaction()}>Encode</button>
                         </p>
